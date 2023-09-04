@@ -1,11 +1,28 @@
 .profile {
+  display: flex;
+  /* flex-direction: column;
+  justify-content: space-between; */
+  margin: 10px auto;
+  padding: 15px;
+  /* width: 300px; */
+  width: 350px;
+  /* height: auto; */
+  text-align: center;
+  background-color: #ffffff;
   border-radius: 10px;
-  background-color: white;
   color: rgb(158, 153, 153);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  /* overflow: hidden; */
+
+  margin-top: 20px;
 }
 
 .description {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  align-items: center;
   padding: 60px 80px;
   text-align: center;
 }

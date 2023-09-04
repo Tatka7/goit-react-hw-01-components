@@ -3,7 +3,7 @@ import css from './TransactionHistory.styled.css';
 
 import TransactionHistoryItem from './TransactionHistoryItem';
 
-export function TransactionHistory({ items }) {
+export default function TransactionHistory({ items }) {
   return (
     <table className={css['transaction-history']}>
       <thead>

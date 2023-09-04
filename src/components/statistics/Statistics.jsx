@@ -9,8 +9,8 @@ export default function Statistics({ title, stats }) {
       <ul className={css['stat-list']}>
         {stats.map(element => (
           <li className={css.item} key={element.id}>
-            <span className={css.label}>{elem.label}</span>
-            <span className={css.percentage}>{elem.percentage}%</span>
+            <span className={css.label}>{element.label}</span>
+            <span className={css.percentage}>{element.percentage}%</span>
           </li>
         ))}
       </ul>

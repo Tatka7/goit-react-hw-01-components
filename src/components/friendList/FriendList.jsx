@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.styled.css';
-// import FriendListItem from './FriendListItem';
 
-export default function FriendList({ friends }) {
+import FriendListItem from './FriendListItem';
+
+export function FriendList({ friends }) {
   return (
     <ul className={css['friend-list']}>
       {friends.map(({ avatar, name, isOnline, id }) => (
@@ -14,16 +15,6 @@ export default function FriendList({ friends }) {
         />
       ))}
     </ul>
-  );
-}
-
-export default function FriendListItem({ avatar, name, online }) {
-  return (
-    <li className={css.item}>
-      <span className={`${css.status} ${online && css.online}`}></span>
-      <img className={css.avatar} src={avatar} alt="User avatar" width="40" />
-      <p className={css.name}>{name}</p>
-    </li>
   );
 }
 

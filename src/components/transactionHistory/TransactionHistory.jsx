@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 import css from './TransactionHistory.styled.css';
 
-export default function TransactionHistory({ items }) {
+import TransactionHistoryItem from './TransactionHistoryItem';
+
+export function TransactionHistory({ items }) {
   return (
     <table className={css['transaction-history']}>
       <thead>
@@ -22,16 +24,6 @@ export default function TransactionHistory({ items }) {
         ))}
       </tbody>
     </table>
-  );
-}
-
-export default function TransactionHistoryItem({ currency, amount, type }) {
-  return (
-    <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
-    </tr>
   );
 }
 

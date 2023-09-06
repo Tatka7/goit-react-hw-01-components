@@ -8,11 +8,11 @@
 
 .title {
   margin: 0;
-  padding: 15px 80px;
+  padding: 15px 85px;
   font-weight: 500;
   font-size: 28px;
 
-  color: rgb(75, 75, 75);
+  color: rgb(55, 55, 55);
 }
 
 .stat-list {
@@ -20,12 +20,13 @@
 }
 
 .item {
-  color: rgb(255, 255, 255);
-  width: 50px;
+  color: rgb(75, 75, 75);
+  width: 65px;
   padding: 10px 10px;
 }
 
 .item:nth-child(2n) {
+  color: rgb(255, 255, 255);
   background-color: rgb(39, 172, 248);
 }
 .item:nth-child(2n-1) {

@@ -15,7 +15,7 @@
 }
 
 .transaction-history th {
-  width: 300px;
+  width: 200px;
   padding: 13px 0;
 }
 .transaction-history tbody {
@@ -33,7 +33,7 @@
 .transaction-history tr > td:nth-child(1) {
   display: block;
   text-align: left;
-  padding-left: 42%;
+  padding-left: 32%;
 }
 .transaction-history tr > td:first-letter {
   text-transform: uppercase;
